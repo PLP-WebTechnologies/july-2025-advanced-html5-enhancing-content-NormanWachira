@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhancing HTML5 Forms & Mastering Forms</title>
+<body>
+    <header>
+        <h1>This is Norman's Demos exhibits. Welcome !</h1>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#forms">Forms</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Ordered and Unordered list -->
+        <section id="lists">
+        <h2>Lists</h2>
+        <p>PLP has the following module courses:</p>
+        <ol>
+            <li>Software Engineering Essentials</li>
+            <li>Python</li>
+            <li>Web Development</li>
+            <li>Database Design & Programmung with SQL</li>
+            <li>Startup Building for Beginners</li>
+        </ol>
+
+        <p>These are requirements to learn with PLP:</p>
+        <ul>
+            <li>Personal willingness and drive</li>
+            <li>Computer</li>
+            <li>Internet connection</li>
+        </ul>
+        </section>
+
+        <!-- Tables -->
+        <section id="tables">
+        <h2>Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Software Development</th>
+                    <th>Web Development</th>
+                    <th>Machine Learning</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>C</td>
+                    <td>HTML</td>
+                    <td>Python</td>
+                </tr>
+
+                <tr>
+                    <td>C++</td>
+                    <td>CSS</td>
+                    <td>C++</td>
+                </tr>
+
+                <tr>
+                    <td>Java</td>
+                    <td>JavaScript</td>
+                    <td>Java</td>
+                </tr>
+
+                <tr>
+                    <td>C#</td>
+                    <td>PHP</td>
+                    <td>R</td>
+                </tr>
+                <tr>
+                    <td>Ruby</td>
+                    <td>XML</td>
+                    <td>Shell</td>
+                </tr>
+
+                <tr>
+                    <td>Swift</td>
+                    <td>React.js</td>
+                    <td>TypeScript</td>
+                </tr>
+
+                <tr>
+                    <td>Python</td>
+                    <td>Node.js</td>
+                    <td>Scala</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+
+        <section id="media">
+            <h2>Media</h2>
+            <section>
+                <!-- For Video -->
+                <video src="./WhatsApp Video 2025-08-02 at 10.33.18.mp4" 
+                controls loop autoplay muted height="300" width="400" alt></video>
+            </section>
+            <section>
+                <!-- For Audio -->
+                <audio src="./WhatsApp Video 2025-08-02 at 10.33.18.mp4" controls muted></audio>
+            </section>
+        </section>
+
+        <!-- Forms and inputs -->
+        <section id="forms">
+            <h2>Forms</h2>
+            <form action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <!-- First Name -->
+                    <label for="fname">First Name:</label>
+                    <input type="text" placeholder="Norman" required><br><br>
+                    <!-- Last Name -->
+                    <label for="lname">Last Name:</label>
+                    <input type="text" placeholder="Wachira" required><br><br>
+                    <!-- Email -->
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="abc@xyz.com" required><br><br>
+                    <!-- Date of Birth -->
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" required><br><br>
+                    <!-- Gender -->
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender" value="male">Male 
+                        <input type="radio" name="gender" value="female">Female
+                        <input type="radio" name="gender" value="other">Other 
+                        <input type="radio" name="gender" value="Prefer not to say">Prefer not to say
+                        <br><br>
+                    <!-- Country -->
+                        <label for="COuntry">Select Country</label>
+                        <select name="country" id="country" required>
+                            <option value="">Select Country</option>
+                            <option value="ke">Kenya</option>
+                            <option value="ug">Uganda</option>
+                            <option value="tz">Tanzania</option>
+                        </select><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Account Details</legend>
+                    <!-- Username -->
+                    <label for="username">Username:</label>
+                    <input type="text" readonly value="NO USERNAME"><br><br>
+                    <!-- Password -->
+                    <label for="password">Password:</label>
+                    <input type="password" required minlength="6"><br><br>
+                    <!-- Additional Comment -->
+                    <label for="comment">Additional Comments:</label>
+                    <textarea name="comments" id="comments" placeholder="Any additional comments?..."></textarea><br><br>
+                </fieldset>
+            
+                <!-- Submit and reset -->
+                <label>
+                    <input type="checkbox" name="t&c" required> I agree to the terms and conditions
+                </label>
+                <br><br>
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+         <section id="contact">
+      <h2>Contact Us</h2>
+      <address>
+        Email: <a href="mailto:norman.wanyiri@riarauniversity.ac.ke">norman.wanyiri@riarauniversity.ac.ke</a><br />
+        Phone: +254-700-388-930
+      </address>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Forms, Tables and Lists. All rights reserved</p>
+    </footer>
+   
+</body>
+</html>
